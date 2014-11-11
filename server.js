@@ -1,4 +1,4 @@
-var express = require('express');
+var express = require('express'),
 	app = express(),
 	sql = require('sequelize'),
 	port = 8500,
@@ -18,7 +18,7 @@ var Lawyer = sequelize.define('Lawyer', {
 sequelize.sync().then(function() {
   console.log('Database synced');
 }, function(error) {
-  console.error(error);
+  console.error(err);
 });
 
 app.get('/lawyers', function(req, res){
