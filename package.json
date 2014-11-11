@@ -1,0 +1,23 @@
+{
+  "name": "lawyer-scoreboard",
+  "version": "0.0.0",
+  "description": "lawyer-scoreboard =================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bloodhawk/lawyer-scoreboard.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/bloodhawk/lawyer-scoreboard/issues"
+  },
+  "dependencies": {
+    "mysql": "~2.5.3",
+    "sequelize": "~2.0.0-rc2",
+    "express": "~4.10.2"
+  }
+}
